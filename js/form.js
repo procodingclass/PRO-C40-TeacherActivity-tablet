@@ -5,9 +5,9 @@ class Form {
     this.buttonImg = createImg("./images/start.png");
   }
   display() {
-    this.input.position(displayWidth / 2 - 90, displayHeight / 2 - 150);
+    this.input.position(380, 180);
     this.input.size(180, 30);
-    this.buttonImg.position(displayWidth / 2 +50 , displayHeight / 2 - 100);
+    this.buttonImg.position(475 + 50, 250);
     this.buttonImg.size(150, 50);
 
   }
